@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function About() {
     return (
-        <section className="py-16 px-6 md:px-20 " id="about">
+        <section className="py-16 px-6 md:px-20 overflow-hidden" id="about">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
 
                 {/* Texto */}
