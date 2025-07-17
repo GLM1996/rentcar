@@ -15,7 +15,7 @@ const Hero = ({
     <BackgroundAnimation
       animation={animation}
       duration={duration}
-      backgroundImage="url('/img/hero1.jpg')"
+      backgroundImage="url('/img/hero1.webp')"
     />
 
     <ContentFadeIn delay={contentDelay} duration={0.6}>
