@@ -9,7 +9,7 @@ export default function About() {
                 {/* Texto */}
                 <div className="md:w-1/2 text-center md:text-left">
                     <motion.h2
-                        className="text-4xl font-bold text-red-700  mb-6"
+                        className="text-4xl font-bold text-red-700 mb-6"
                         initial={{ opacity: 0, y: -30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
@@ -17,7 +17,6 @@ export default function About() {
                     >
                         Sobre Nosotros
                     </motion.h2>
-
                     <motion.p
                         className="text-white text-lg leading-relaxed mb-4"
                         initial={{ opacity: 0, x: -50 }}
