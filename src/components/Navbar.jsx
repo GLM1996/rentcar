@@ -54,7 +54,7 @@ export default function Navbar() {
       {/* Mobile menu overlay */}
       {isOpen && (
         <div className="md:hidden bg-red-800 bg-opacity-95 backdrop-blur fixed top-20 left-0 w-full z-40 px-6 pb-4">
-          <ul className="flex flex-col gap-4 text-white text-lg font-medium">
+          <ul className="flex flex-col gap-4 mt-2 text-white text-lg font-medium">
             {links.map((link, index) => (
               <li
                 key={index}
