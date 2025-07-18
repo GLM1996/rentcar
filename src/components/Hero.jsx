@@ -5,7 +5,7 @@ import { ContentFadeIn } from './animations/ContentFadeIn';
 const Hero = ({
   title = "Viaja con estilo en un clásico cubano",
   subtitle = "Disfruta de paseos únicos por Cienfuegos a bordo de un almendrón rojo icónico.",
-  ctaText = "Reserva tu viaje",
+  ctaText = "CONTACTAME",
   onCtaClick = () => {},
   animation = 'slide',
   duration = 1.5,
@@ -23,7 +23,7 @@ const Hero = ({
       <p className="mt-4 text-lg md:text-xl max-w-xl drop-shadow">{subtitle}</p>
       <button
         onClick={onCtaClick}
-        className="mt-6 px-6 py-3 bg-red-600 hover:bg-red-700 rounded-2xl text-white text-lg font-semibold shadow-lg transition"
+        className="mt-6 px-6 py-3 bg-yellow-400  hover:bg-red-900  rounded-2xl text-red-900 hover:text-yellow-400 text-lg font-semibold shadow-lg transition cursor-pointer"
       >
         {ctaText}
       </button>
