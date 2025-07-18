@@ -8,7 +8,6 @@ export const Imagen = ({
     viewport = true
 }) => (
     <motion.div
-        className="w-full rounded-full overflow-hidden mx-auto"
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: duration, delay: delay }}
